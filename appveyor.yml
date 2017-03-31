@@ -17,3 +17,8 @@ test_script:
 clone_depth: 1
 test: on
 deploy: off
+notifications:
+  - provider: HipChat
+    auth_token:
+      secure: 150pFbyFIkvkIkmCc8tXZHifELpaL1grRTQqWP0yQI3kIn1dfaxvbF5wWNoDyHXi
+    room: DevOps
