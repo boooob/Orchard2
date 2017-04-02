@@ -9,6 +9,8 @@ install:
 
 init:
   - git config --global core.autocrlf true
+build:
+  - publish_wap: true
 build_script:
   - dotnet restore
   - dotnet build
